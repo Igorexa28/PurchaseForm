@@ -1,0 +1,436 @@
+.modal_styles {
+    top: 256px;
+    left: 51.9%;
+    height: 300px;
+    width: 93%;
+    z-index: 1000;
+    position: relative;
+    font-size: 28px;
+    transition: .3s all;
+    background-color: #CDDAEA;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    transform: translate(-50%, -50%);
+}
+
+.overlay_styles {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    transition: .5s;
+    transition: all .4s;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.btnCloseStyle {
+    top: 106px;
+    left: 5.4%;
+    height: 50px;
+    width: 172px;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: -100px;
+}
+
+.btnCloseStyle > button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #CDDAEA;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    color: #5093E1;
+}
+
+.btnCloseStyle > button:hover {
+    cursor: pointer;
+} 
+
+.firstContainer {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* background-color: cadetblue; */
+}
+
+.contentBlockModal {
+    width: 230px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.customBlock {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #CDDAEA;
+    justify-content: center;
+    align-items: flex-end;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.customBlock > div:first-child {
+    margin-right: 0;
+    width: 54px;
+    background-color: transparent;
+}
+
+.currencySelect {
+    outline: none;
+    background-color: #CDDAEA;
+    border: 1px solid #CDDAEA;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.customBlock > div:last-child > input {
+    width: 95%;
+    height: 26px;
+    outline: none;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 2px solid #E2E7ED;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.customBlock > div:first-child > select {
+    margin-right: 10px;
+    display: block;
+}
+
+.smallContentBlockModal {
+    width: 120px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.smallContentBlockModal > div:last-child > input {
+    width: 95%;
+    height: 26px;
+    outline: none;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 2px solid #E2E7ED;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.inputFrom {
+    width: 90%;
+}
+
+.textInputModal {
+    width: 96%;
+    height: 26px;
+    outline: none;
+    margin-top: 10px;
+    padding-left: 3px;
+    border-radius: 5px;
+    border: 2px solid #E2E7ED;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.textInputModalBlue::-webkit-input-placeholder {
+    color: #5093E1;
+}
+
+.selectModal {
+    width: 100%;
+    height: 32px;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #E2E7ED;
+    background-color: #CDDAEA;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.secondContainer {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 20px;
+}
+
+.thirdContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.thirdContainer > div:last-child {
+    display: flex;
+}
+
+.thirdContainer > div:first-child > button {
+    height: 50px;
+    width: 172px;
+    border-radius: 10px;
+    border: 2px solid #B4CCE6;
+    background-color: #CDDAEA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    color: #5093E1;
+}
+
+.thirdContainer > div:first-child > button:hover {
+    cursor: pointer;
+}
+
+.thirdContainer > div:last-child > button:hover {
+    cursor: pointer;
+}
+
+.thirdContainer > div:last-child > div >button:first-child {
+    margin-right: 20px;
+    height: 50px;
+    width: 172px;
+    border-radius: 10px;
+    border: 2px solid #B4CCE6;
+    background-color: #CDDAEA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    color: #5093E1;
+}
+
+.thirdContainer > div:last-child > div >button:last-child {
+    margin-right: 20px;
+    height: 50px;
+    width: 172px;
+    border-radius: 10px;
+    border: 2px solid #B4CCE6;
+    background-color: #CDDAEA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    color: #5093E1;
+    display: none;
+}
+
+.thirdContainer > div:last-child > button:last-child {
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #5394DE;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+}
+
+@media all and (max-width: 1394px) {
+    .modal_styles {
+        top: 282px;
+        height: auto;
+    }
+}
+
+@media all and (max-width: 1225px) {
+    .modal_styles {
+        top: 282px;
+    }
+}
+
+@media all and (max-width: 1112px) {
+    .modal_styles {
+        top: 318px;
+    }
+}
+
+@media all and (max-width: 843px) {
+    .modal_styles {
+        top: 349px;
+    }
+}
+
+@media all and (max-width: 716px) {
+    .modal_styles {
+        top: 400px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .modal_styles {
+        top: 400px;
+        height:900px;
+        margin-top: 43%;
+        display: block;
+        overflow-y: scroll;
+        height: 98%;
+    }
+
+    .firstContainer {
+        margin-top: 14px;
+    }
+
+    .firstContainer > div {
+        margin-top: 8px;
+    }
+
+    .secondContainer > div {
+        margin-top: 8px;
+    }
+
+    .thirdContainer {
+        padding-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .firstContainer {
+        margin-bottom: 0;
+    }
+
+    .thirdContainer {
+        margin-top: -17px;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .thirdContainer > div:first-child {
+        width: 100%;
+    }
+
+    .thirdContainer > div:first-child > button {
+        width: 100%;
+        height: 52px;
+    }
+
+    .thirdContainer > div:last-child {
+        height: auto;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .thirdContainer > div:last-child > div > button:first-child {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+        height: 52px;
+    }
+
+    .thirdContainer > div:last-child > button:last-child {
+        width: 100%;
+        height: 52px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .modal_styles {
+        top: 26%;
+        left: 50%;
+        position: fixed;
+        border-top-left-radius: 20px;
+    }
+
+    .firstContainer {
+        padding-left: 0;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .firstContainer > div {
+        margin-right: 0;
+    }
+
+    .secondContainer {
+        padding-left: 0;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secondContainer > div {
+        margin-right: 0;
+    }
+
+    .thirdContainer > div:first-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thirdContainer > div:first-child > button {
+        width: 230px;
+        height: 40px;
+    }
+
+    .thirdContainer > div:last-child {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thirdContainer > div:last-child > div {
+        display: flex;
+    }
+
+    .thirdContainer > div:last-child > div > button:first-child {
+        width: 105px;
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .thirdContainer > div:last-child > div > button:last-child {
+        width: 105px;
+        height: 40px;
+        display: block;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 17px;
+    }
+
+    .thirdContainer > div:last-child > button:last-child {
+        width: 230px;
+        height: 40px;
+    }
+}

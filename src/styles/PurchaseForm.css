@@ -1,0 +1,420 @@
+.mainField {
+    width: 96%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 1, 0.15);
+}
+
+.firstSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.contentBlock {
+    width: 230px;
+    margin-right: 20px;
+}
+
+.firstSection > div:last-child {
+    margin-right: 0;
+}
+
+.firstSection > div > div:last-child > select {
+    width: 100%;
+    height: 32px;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #E2E7ED;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #5093E1;
+}
+
+.textInput {
+    width: 100%;
+    height: 26px;
+    outline: none;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #E2E7ED;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.dateInput {
+    width: 100%;
+    height: 28px;
+    outline: none;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #E2E7ED;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.secondSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.secondSection > div:last-child {
+    margin-right: 0;
+}
+
+.secondSection > div > div:first-child {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.nameOfBlock {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.secondSection > div > div:last-child {
+    margin-top: 15px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: #5093E1;
+}
+
+.thirdSection {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.thirdSection > div {
+    width: 230px;
+    margin-right: 20px;
+}
+
+.thirdSection > div:last-child {
+    margin-right: 0;
+}
+
+.thirdSection > div > div:first-child {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.thirdSection > div > div:last-child > select {
+    width: 100%;
+    height: 32px;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #E2E7ED;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #5093E1;
+}
+
+.selectStyle {
+    width: 100%;
+    height: 32px;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #E2E7ED;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #5093E1;
+}
+
+.fourthSection {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+.fourthSection > div {
+    width: 462px;
+}
+
+.fourthSection > div:first-child {
+    margin-right: 40px;
+}
+
+.fourthSection > div:last-child {
+    width: 472px;
+}
+
+.fourthSection > div > div > textarea {
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #E2E7ED;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.fourthSection > div > div:first-child {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+.fourthSection > div > div:last-child > textarea {
+    width: 100%;
+    margin-top: 10px;
+    height: 68px;
+}
+
+.fifthSection {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.fifthSection > div:first-child > button {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 50px;
+    width: 231px;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #5093E1;
+}
+
+.fifthSection > div:last-child {
+    align-self: center;
+    margin-left: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    color: #7C869C;
+}
+
+@media all and (max-width: 1108px) {
+    .firstSection > div:last-child {
+        margin-top: 10px;
+    }
+
+    .secondSection > div:last-child {
+        margin-top: 10px;
+    }
+
+    .thirdSection > div:last-child {
+        margin-top: 10px;
+    }
+
+    .fourthSection > div:last-child {
+        margin-top: 10px;
+        width: 468px;
+    }
+}
+
+@media all and (max-width: 1090px) {
+    .fourthSection {
+        flex-direction: column;
+    }
+
+    .fourthSection > div:first-child {
+        margin-top: 10px;
+        width: 468px;
+    }
+}
+
+@media all and (max-width: 880px) {
+    .mainField {
+        width: 90%;
+    }
+
+    .firstSection > div:nth-child(3n) {
+        margin-top: 10px;
+    }
+
+    .secondSection > div:nth-child(3n) {
+        margin-top: 10px;
+    }
+
+    .thirdSection > div:nth-child(3n) {
+        margin-top: 10px;
+    }
+
+    .fourthSection > div:nth-child(3n) {
+        margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .firstSection > div:first-child + div {
+        margin-top: 10px;
+    } 
+
+    .secondSection > div:first-child + div {
+        margin-top: 10px;
+    } 
+
+    .thirdSection > div:first-child + div {
+        margin-top: 10px;
+    } 
+}
+
+@media all and (max-width: 640px) {
+    .fourthSection > div > div {
+        width: 99%;
+    }
+
+    .fourthSection > div > div > textarea {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .mainField {
+        padding-left: 15px;
+    }
+
+    .firstSection {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstSection > div {
+        margin-top: 10px;
+    }
+
+    .firstSection > div:first-child {
+        width: 235px;
+    }
+
+    .firstSection > div:first-child + div {
+        width: 238px;
+        margin-right: 14px;
+    }
+
+    .firstSection > div:last-child {
+        margin-right: 14px;
+        width: 238px;
+    }
+
+    .secondSection {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secondSection > div {
+        margin-top: 10px;
+    }
+
+    .secondSection > div:last-child {
+        margin-right: 19px;
+    }
+
+    .thirdSection {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .thirdSection > div {
+        margin-top: 10px;
+    }
+
+    .thirdSection > div:last-child {
+        margin-right: 19px;
+    }
+
+    .fourthSection {
+        flex-direction: column;
+    }
+
+    .fourthSection > div:first-child {
+        margin-right: 0;
+        width: 93%;
+    }
+
+    .fourthSection > div:last-child  {
+        width: 93%;
+    }
+
+    .fourthSection > div > div > textarea {
+        width: 98%;
+    }
+
+    .fourthSection + div {
+        flex-direction: column-reverse;
+    }
+
+    .fifthSection {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .fifthSection > div:last-child {
+        padding-top: 10px;
+    }
+
+    .fifthSection > div:first-child {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media all and (max-width: 385px) {
+    .mainField {
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,42 @@
+.navbar {
+    width: 76px;
+    height: 826px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+}
+
+.navbar > div {
+    height: 55px;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar > div:first-child {
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.navbar > div:first-child > img {
+    border-radius: 70%;
+}
+
+.horLineMain {
+    width: 60%;
+    opacity: 0.2;
+    border: 1px solid grey;
+}
+
+.mainIconOfMenu {
+    height: 45px;
+    width: 45px;
+}
+
+.iconOfMenu {
+    height: 40px;
+    width: 30px;
+    padding-top: 7px;
+}
